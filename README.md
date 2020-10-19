@@ -52,3 +52,10 @@ Hypertext Markup Language = hybardaxd nerkob lemjoeja
 Commitment = suNidnamd
 
 Success = coSaC
+
+
+Use the command 'php artisan serve' to start the app
+
+Goto to TestController
+Within each fucntion feed in your input
+In your browser hit the url localhost://concept-nova/cipher
