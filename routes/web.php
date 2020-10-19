@@ -14,7 +14,8 @@ use Illuminate\Support\Facades\Route;
  */
 
 Route::get('/', function () {
-    return view('welcome');
+ return view('welcome');
 });
 
-Route::get('/encrypt', 'TestController@test');
+Route::get('/cipher', 'TestController@encrypt');
+Route::get('/decipher', 'TestController@decrypt');

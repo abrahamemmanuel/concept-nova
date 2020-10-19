@@ -4,8 +4,10 @@ namespace App\Http\Controllers;
 
 class TestController extends Controller
 {
+
  public function encrypt()
  {
+
   function data_encrypt($data = null)
   {
 
@@ -69,6 +71,7 @@ class TestController extends Controller
    return $output;
   }
 
+  // Feed this fucntion with your input
   return dd(encrypt('Hello World'));
 
  }
@@ -111,7 +114,8 @@ class TestController extends Controller
 
    return $ouput;
   }
-
+  // Feed this fucntion with your input
+  return dd(decrypt('Hello World'));
  }
 
 }
