@@ -75,13 +75,7 @@ class TestController extends Controller
 
  public function decrypt()
  {
-  /**  Todo's
-   * 1. Declare a variable $ouput and set it's value to empty string
-   * 2. Convert the input parameter ($data) to lower case and also split the string into array
-   * 3. List out the encryption characters in form of key-value pairs
-   * 4. Loop through the array of spllited string
-   * 5.
-   */
+
   function data_decrypt($data = null)
   {
 
